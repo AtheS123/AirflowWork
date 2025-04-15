@@ -1,0 +1,15 @@
+[2024-12-14T23:53:30.064+0000] {processor.py:186} INFO - Started process (PID=401721) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:53:30.066+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-14T23:53:30.069+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:53:30.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:53:30.073+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:53:30.086+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.029 seconds
+[2024-12-14T23:54:27.225+0000] {processor.py:186} INFO - Started process (PID=401784) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:54:27.226+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-14T23:54:27.229+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:54:27.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:54:27.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:54:27.246+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.028 seconds
+[2024-12-14T23:55:23.704+0000] {processor.py:186} INFO - Started process (PID=401847) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:55:23.705+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-14T23:55:23.708+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:55:23.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:55:23.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-14T23:55:23.727+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.030 seconds

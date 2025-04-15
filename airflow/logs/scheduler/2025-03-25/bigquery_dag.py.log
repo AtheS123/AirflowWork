@@ -1,0 +1,30 @@
+[2025-03-25T16:57:23.483+0000] {processor.py:186} INFO - Started process (PID=1824023) to work on /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:57:23.485+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-03-25T16:57:23.487+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:23.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:57:23.655+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:23.650+0000] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/bigquery_dag.py
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/bigquery_dag.py", line 9, in <module>
+    @dag(
+     ^^^^
+TypeError: dag() got an unexpected keyword argument 'cathup'
+[2025-03-25T16:57:23.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:57:23.679+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 0.203 seconds
+[2025-03-25T16:58:19.549+0000] {processor.py:186} INFO - Started process (PID=1824076) to work on /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:58:19.550+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-03-25T16:58:19.553+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:19.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:58:19.902+0000] {processor.py:925} INFO - DAG(s) 'bigquery_attempt' retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-03-25T16:58:20.115+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.114+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:bigquery_attempt
+[2025-03-25T16:58:20.130+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.130+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:bigquery_attempt
+[2025-03-25T16:58:20.142+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.141+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:bigquery_attempt
+[2025-03-25T16:58:20.162+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.162+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:bigquery_attempt
+[2025-03-25T16:58:20.174+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.174+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:bigquery_attempt
+[2025-03-25T16:58:20.185+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.185+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:bigquery_attempt
+[2025-03-25T16:58:20.197+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.196+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:bigquery_attempt
+[2025-03-25T16:58:20.197+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-25T16:58:20.212+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.211+0000] {dag.py:3262} INFO - Creating ORM DAG for bigquery_attempt
+[2025-03-25T16:58:20.213+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:20.213+0000] {dag.py:4180} INFO - Setting next_dagrun for bigquery_attempt to None, run_after=None
+[2025-03-25T16:58:20.248+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 0.706 seconds

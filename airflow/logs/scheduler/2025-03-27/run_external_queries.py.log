@@ -1,0 +1,22 @@
+[2025-03-27T20:04:56.946+0000] {processor.py:186} INFO - Started process (PID=1861633) to work on /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:04:56.947+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/run_external_queries.py for tasks to queue
+[2025-03-27T20:04:56.950+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:56.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:04:57.150+0000] {processor.py:925} INFO - DAG(s) 'run_external_queries' retrieved from /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:04:57.307+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.306+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:run_external_queries
+[2025-03-27T20:04:57.321+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.320+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:run_external_queries
+[2025-03-27T20:04:57.332+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.331+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:run_external_queries
+[2025-03-27T20:04:57.353+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.352+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:run_external_queries
+[2025-03-27T20:04:57.365+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.364+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:run_external_queries
+[2025-03-27T20:04:57.387+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.386+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:run_external_queries
+[2025-03-27T20:04:57.401+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.401+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:run_external_queries
+[2025-03-27T20:04:57.402+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T20:04:57.421+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.420+0000] {dag.py:3262} INFO - Creating ORM DAG for run_external_queries
+[2025-03-27T20:04:57.422+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:57.422+0000] {dag.py:4180} INFO - Setting next_dagrun for run_external_queries to None, run_after=None
+[2025-03-27T20:04:57.452+0000] {processor.py:208} INFO - Processing /root/airflow/dags/run_external_queries.py took 0.514 seconds
+[2025-03-27T20:07:14.125+0000] {processor.py:186} INFO - Started process (PID=1861761) to work on /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:07:14.128+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/run_external_queries.py for tasks to queue
+[2025-03-27T20:07:14.138+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:14.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:07:18.513+0000] {processor.py:925} INFO - DAG(s) 'run_external_queries' retrieved from /root/airflow/dags/run_external_queries.py
+[2025-03-27T20:07:18.691+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:18.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T20:07:18.776+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:18.759+0000] {dag.py:4180} INFO - Setting next_dagrun for run_external_queries to None, run_after=None
+[2025-03-27T20:07:18.989+0000] {processor.py:208} INFO - Processing /root/airflow/dags/run_external_queries.py took 4.884 seconds

@@ -1,0 +1,10 @@
+[2025-03-25T16:57:30.601+0000] {processor.py:186} INFO - Started process (PID=1824033) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:57:30.602+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
+[2025-03-25T16:57:30.606+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:30.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:57:30.610+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:57:30.628+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.036 seconds
+[2025-03-25T16:58:27.697+0000] {processor.py:186} INFO - Started process (PID=1824084) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:58:27.699+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
+[2025-03-25T16:58:27.702+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:27.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:58:27.706+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-03-25T16:58:27.721+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.032 seconds

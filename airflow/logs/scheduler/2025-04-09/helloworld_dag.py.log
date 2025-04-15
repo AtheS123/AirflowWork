@@ -1,0 +1,14 @@
+[2025-04-09T21:09:28.844+0000] {processor.py:186} INFO - Started process (PID=1117) to work on /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:09:28.845+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/helloworld_dag.py for tasks to queue
+[2025-04-09T21:09:28.847+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:28.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:09:28.859+0000] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:09:28.892+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:28.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:09:28.918+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:28.917+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-04-08 00:00:00+00:00, run_after=2025-04-09 00:00:00+00:00
+[2025-04-09T21:09:28.945+0000] {processor.py:208} INFO - Processing /root/airflow/dags/helloworld_dag.py took 0.110 seconds
+[2025-04-09T21:09:59.963+0000] {processor.py:186} INFO - Started process (PID=1136) to work on /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:09:59.964+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/helloworld_dag.py for tasks to queue
+[2025-04-09T21:09:59.967+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:59.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:09:59.977+0000] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /root/airflow/dags/helloworld_dag.py
+[2025-04-09T21:10:00.006+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:00.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:10:00.037+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:00.036+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-04-08 00:00:00+00:00, run_after=2025-04-09 00:00:00+00:00
+[2025-04-09T21:10:00.067+0000] {processor.py:208} INFO - Processing /root/airflow/dags/helloworld_dag.py took 0.111 seconds

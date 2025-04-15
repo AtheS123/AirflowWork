@@ -1,0 +1,4 @@
+SELECT corpus AS result, COUNT(word) AS unique_words
+FROM `bigquery-public-data.samples.shakespeare`
+GROUP BY result
+ORDER BY unique_words DESC LIMIT 10;

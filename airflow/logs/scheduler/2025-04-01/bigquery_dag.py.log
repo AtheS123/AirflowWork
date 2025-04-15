@@ -1,0 +1,52 @@
+[2025-04-01T19:31:51.845+0000] {processor.py:186} INFO - Started process (PID=1926223) to work on /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:31:51.847+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-04-01T19:31:51.851+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:31:51.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:31:52.098+0000] {processor.py:925} INFO - DAG(s) 'bigquery_attempt' retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:31:52.154+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:31:52.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-01T19:31:52.175+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:31:52.174+0000] {dag.py:4180} INFO - Setting next_dagrun for bigquery_attempt to None, run_after=None
+[2025-04-01T19:31:52.202+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 0.365 seconds
+[2025-04-01T19:35:10.995+0000] {processor.py:186} INFO - Started process (PID=1926316) to work on /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:35:11.002+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-04-01T19:35:11.012+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:11.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:35:49.908+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:42.008+0000] {timeout.py:68} ERROR - Process timed out, PID: 1926316
+[2025-04-01T19:36:47.955+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:57.862+0000] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/bigquery_dag.py
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/bigquery_dag.py", line 4, in <module>
+    from google.cloud import bigquery
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/__init__.py", line 36, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/client.py", line 59, in <module>
+    from google.cloud import exceptions  # pytype: disable=import-error
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/exceptions/__init__.py", line 27, in <module>
+    from grpc._channel import _Rendezvous
+  File "/root/venv/lib/python3.12/site-packages/grpc/_channel.py", line 976, in <module>
+    ) -> Tuple[Optional[float], Optional[bytes], Optional[grpc.RpcError]]:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/typing.py", line 395, in inner
+    return _caches[func](*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/typing.py", line 1585, in __getitem__
+    return self.copy_with(params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/typing.py", line 1486, in copy_with
+    return _GenericAlias(self.__origin__, params,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/typing.py", line 1275, in __init__
+    self.__parameters__ = _collect_parameters(args)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/typing_extensions.py", line 3058, in _collect_parameters
+    elif hasattr(t, '__typing_subst__'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /root/airflow/dags/bigquery_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 1926316
+[2025-04-01T19:36:47.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-04-01T19:36:48.069+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 97.113 seconds

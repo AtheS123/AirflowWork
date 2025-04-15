@@ -1,0 +1,21 @@
+[2025-04-09T21:09:11.583+0000] {processor.py:186} INFO - Started process (PID=1091) to work on /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:11.584+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/run_external_queries.py for tasks to queue
+[2025-04-09T21:09:11.587+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:11.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:11.929+0000] {processor.py:925} INFO - DAG(s) 'run_external_queries' retrieved from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:11.964+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:11.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:09:11.985+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:11.984+0000] {dag.py:4180} INFO - Setting next_dagrun for run_external_queries to None, run_after=None
+[2025-04-09T21:09:12.019+0000] {processor.py:208} INFO - Processing /root/airflow/dags/run_external_queries.py took 0.443 seconds
+[2025-04-09T21:09:42.625+0000] {processor.py:186} INFO - Started process (PID=1118) to work on /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:42.626+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/run_external_queries.py for tasks to queue
+[2025-04-09T21:09:42.628+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:42.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:42.807+0000] {processor.py:925} INFO - DAG(s) 'run_external_queries' retrieved from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:09:42.839+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:42.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:09:42.856+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:42.855+0000] {dag.py:4180} INFO - Setting next_dagrun for run_external_queries to None, run_after=None
+[2025-04-09T21:09:42.889+0000] {processor.py:208} INFO - Processing /root/airflow/dags/run_external_queries.py took 0.272 seconds
+[2025-04-09T21:10:13.750+0000] {processor.py:186} INFO - Started process (PID=1155) to work on /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:10:13.752+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/run_external_queries.py for tasks to queue
+[2025-04-09T21:10:13.755+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:13.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:10:13.968+0000] {processor.py:925} INFO - DAG(s) 'run_external_queries' retrieved from /root/airflow/dags/run_external_queries.py
+[2025-04-09T21:10:13.998+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:13.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:10:14.015+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:14.015+0000] {dag.py:4180} INFO - Setting next_dagrun for run_external_queries to None, run_after=None
+[2025-04-09T21:10:14.049+0000] {processor.py:208} INFO - Processing /root/airflow/dags/run_external_queries.py took 0.307 seconds

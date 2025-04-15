@@ -1,0 +1,173 @@
+[2025-03-28T16:20:16.527+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-28T16:20:16.536+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_external_queries.use_bigquery manual__2025-03-28T16:20:12.579699+00:00 [queued]>
+[2025-03-28T16:20:16.542+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_external_queries.use_bigquery manual__2025-03-28T16:20:12.579699+00:00 [queued]>
+[2025-03-28T16:20:16.542+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-28T16:20:16.558+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): use_bigquery> on 2025-03-28 16:20:12.579699+00:00
+[2025-03-28T16:20:16.565+0000] {standard_task_runner.py:72} INFO - Started process 1873404 to run task
+[2025-03-28T16:20:16.570+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'run_external_queries', 'use_bigquery', 'manual__2025-03-28T16:20:12.579699+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/run_external_queries.py', '--cfg-path', '/tmp/tmpatq1cjvc']
+[2025-03-28T16:20:16.571+0000] {standard_task_runner.py:105} INFO - Job 95: Subtask use_bigquery
+[2025-03-28T16:20:16.625+0000] {task_command.py:467} INFO - Running <TaskInstance: run_external_queries.use_bigquery manual__2025-03-28T16:20:12.579699+00:00 [running]> on host ubuntu-s-2vcpu-4gb-amd-sfo3-01
+[2025-03-28T16:20:16.693+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='run_external_queries' AIRFLOW_CTX_TASK_ID='use_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2025-03-28T16:20:12.579699+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-28T16:20:12.579699+00:00'
+[2025-03-28T16:20:16.694+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-28T16:20:16.694+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-28T16:20:16.695+0000] {logging_mixin.py:190} INFO - Current task name:use_bigquery state:running start_date:2025-03-28 16:20:16.537363+00:00
+[2025-03-28T16:20:16.695+0000] {logging_mixin.py:190} INFO - Dag name:run_external_queries and current dag run status:running
+[2025-03-28T16:20:16.695+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-28T16:20:17.281+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/airflow/dags/run_external_queries.py", line 25, in use_bigquery
+    for row in results:
+               ^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 2164, in __iter__
+    return iter(self.result())
+                ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 1681, in result
+    while not is_job_done():
+              ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 1630, in is_job_done
+    raise job_failed_exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: title at [3:10]; reason: invalidQuery, location: query, message: Unrecognized name: title at [3:10]
+
+Location: US
+Job ID: 439f895f-3fc7-4063-aa09-9b3dc4b1b672
+
+[2025-03-28T16:20:17.292+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-03-28T16:20:17.292+0000] {logging_mixin.py:190} INFO - Task start:2025-03-28 16:20:16.537363+00:00 end:2025-03-28 16:20:17.291488+00:00 duration:0.754125
+[2025-03-28T16:20:17.292+0000] {logging_mixin.py:190} INFO - Task:<Task(_PythonDecoratedOperator): use_bigquery> dag:<DAG: run_external_queries> dagrun:<DagRun run_external_queries @ 2025-03-28 16:20:12.579699+00:00: manual__2025-03-28T16:20:12.579699+00:00, state:running, queued_at: 2025-03-28 16:20:12.607113+00:00. externally triggered: True>
+[2025-03-28T16:20:17.292+0000] {logging_mixin.py:190} INFO - Failure caused by 400 Unrecognized name: title at [3:10]; reason: invalidQuery, location: query, message: Unrecognized name: title at [3:10]
+
+Location: US
+Job ID: 439f895f-3fc7-4063-aa09-9b3dc4b1b672
+[2025-03-28T16:20:17.293+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=run_external_queries, task_id=use_bigquery, run_id=manual__2025-03-28T16:20:12.579699+00:00, execution_date=20250328T162012, start_date=20250328T162016, end_date=20250328T162017
+[2025-03-28T16:20:17.314+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-28T16:20:17.315+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 95 for task use_bigquery (400 Unrecognized name: title at [3:10]; reason: invalidQuery, location: query, message: Unrecognized name: title at [3:10]
+
+Location: US
+Job ID: 439f895f-3fc7-4063-aa09-9b3dc4b1b672
+; 1873404)
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/airflow/dags/run_external_queries.py", line 25, in use_bigquery
+    for row in results:
+               ^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 2164, in __iter__
+    return iter(self.result())
+                ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 1681, in result
+    while not is_job_done():
+              ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/root/venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/query.py", line 1630, in is_job_done
+    raise job_failed_exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: title at [3:10]; reason: invalidQuery, location: query, message: Unrecognized name: title at [3:10]
+
+Location: US
+Job ID: 439f895f-3fc7-4063-aa09-9b3dc4b1b672
+
+[2025-03-28T16:20:17.346+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-28T16:20:17.360+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-28T16:20:17.361+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

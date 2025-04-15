@@ -1,0 +1,20 @@
+[2025-04-01T19:31:48.984+0000] {processor.py:186} INFO - Started process (PID=1926219) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:31:48.985+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-01T19:31:48.988+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:31:48.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:31:49.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:31:49.250+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.274 seconds
+[2025-04-01T19:35:03.587+0000] {processor.py:186} INFO - Started process (PID=1926311) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:35:03.591+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-01T19:35:03.601+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:03.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:35:04.968+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-01T19:35:05.428+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.425+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:check_queries
+[2025-04-01T19:35:05.449+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.448+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:check_queries
+[2025-04-01T19:35:05.461+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.460+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:check_queries
+[2025-04-01T19:35:05.481+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.480+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:check_queries
+[2025-04-01T19:35:05.499+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.499+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:check_queries
+[2025-04-01T19:35:05.525+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.524+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:check_queries
+[2025-04-01T19:35:05.555+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.555+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:check_queries
+[2025-04-01T19:35:05.556+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-01T19:35:05.577+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.576+0000] {dag.py:3262} INFO - Creating ORM DAG for check_queries
+[2025-04-01T19:35:05.578+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:35:05.578+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-01T19:35:05.686+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 2.116 seconds

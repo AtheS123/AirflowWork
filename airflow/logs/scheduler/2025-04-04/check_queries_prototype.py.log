@@ -1,0 +1,224 @@
+[2025-04-04T15:04:50.451+0000] {processor.py:186} INFO - Started process (PID=1962515) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:04:50.452+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:04:50.455+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:50.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:04:51.003+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:04:51.034+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:51.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:04:51.063+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:51.062+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:04:51.106+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.664 seconds
+[2025-04-04T15:19:18.662+0000] {processor.py:186} INFO - Started process (PID=1962857) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:19:18.663+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:19:18.666+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:18.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:19:19.174+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:19:19.215+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:19.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:19:19.237+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:19.236+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:19:19.270+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.622 seconds
+[2025-04-04T15:34:04.477+0000] {processor.py:186} INFO - Started process (PID=1963237) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:34:04.502+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:34:04.623+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:34:04.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:34:46.067+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:34:35.509+0000] {timeout.py:68} ERROR - Process timed out, PID: 1963237
+[2025-04-04T15:35:07.542+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:34:57.798+0000] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/check_queries_prototype.py
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/check_queries_prototype.py", line 6, in <module>
+    from google.cloud import bigquery
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/__init__.py", line 36, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/client.py", line 72, in <module>
+    from google.cloud.bigquery import _job_helpers
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/_job_helpers.py", line 47, in <module>
+    from google.cloud.bigquery import job
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/__init__.py", line 27, in <module>
+    from google.cloud.bigquery.job.copy_ import CopyJob
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/job/copy_.py", line 22, in <module>
+    from google.cloud.bigquery.table import TableReference
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/table.py", line 63, in <module>
+    from google.cloud.bigquery import _pandas_helpers
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/_pandas_helpers.py", line 35, in <module>
+    from google.cloud.bigquery import schema
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/schema.py", line 23, in <module>
+    from google.cloud.bigquery import standard_sql
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/standard_sql.py", line 19, in <module>
+    from google.cloud.bigquery.enums import StandardSqlTypeNames
+  File "/root/venv/lib/python3.12/site-packages/google/cloud/bigquery/enums.py", line 295, in <module>
+    class SqlTypeNames(str, enum.Enum):
+  File "/usr/lib/python3.12/enum.py", line 596, in __new__
+    enum_class = super().__new__(metacls, cls, bases, classdict, **kwds)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/enum.py", line 277, in __set_name__
+    enum_member._value_ = enum_class._member_type_(*args)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /root/airflow/dags/check_queries_prototype.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.5/best-practices.html#reducing-dag-complexity, PID: 1963237
+Error calling __set_name__ on '_proto_member' instance 'TIMESTAMP' in 'SqlTypeNames'
+[2025-04-04T15:35:07.556+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:35:07.720+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 63.501 seconds
+[2025-04-04T15:36:24.476+0000] {processor.py:186} INFO - Started process (PID=1963270) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:24.478+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:36:24.480+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:24.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:24.965+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:24.999+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:24.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:36:25.023+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:25.022+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:36:25.053+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.585 seconds
+[2025-04-04T15:36:55.849+0000] {processor.py:186} INFO - Started process (PID=1963288) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:55.851+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:36:55.853+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:55.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:56.162+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:36:56.193+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:56.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:36:56.213+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:56.213+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:36:56.247+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.409 seconds
+[2025-04-04T15:37:26.374+0000] {processor.py:186} INFO - Started process (PID=1963299) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:26.376+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:37:26.377+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:26.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:26.711+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:26.744+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:26.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:37:26.759+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:26.759+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:37:26.789+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.422 seconds
+[2025-04-04T15:37:56.894+0000] {processor.py:186} INFO - Started process (PID=1963319) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:56.896+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:37:56.898+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:56.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:57.223+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:57.216+0000] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/check_queries_prototype.py
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/check_queries_prototype.py", line 36, in <module>
+    check_queries()
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/root/airflow/dags/check_queries_prototype.py", line 33, in check_queries
+    ran_query = individual_query_check.override(task_id=f"{filename}")(foundfile)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/decorators/base.py", line 258, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 976, in __init__
+    validate_key(self.task_id)
+  File "/root/venv/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-04-04T15:37:57.224+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:37:57.245+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.361 seconds
+[2025-04-04T15:38:27.371+0000] {processor.py:186} INFO - Started process (PID=1963327) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:27.373+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:38:27.377+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:27.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:27.901+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:28.457+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:28.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:38:28.472+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:28.472+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:38:28.512+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 1.151 seconds
+[2025-04-04T15:38:59.164+0000] {processor.py:186} INFO - Started process (PID=1963336) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:59.166+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:38:59.169+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:59.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:59.534+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:38:59.560+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:59.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:38:59.574+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:59.574+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:38:59.597+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.442 seconds
+[2025-04-04T15:39:30.709+0000] {processor.py:186} INFO - Started process (PID=1963344) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:39:30.711+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:39:30.712+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:30.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:39:31.005+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:39:31.030+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:31.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:39:31.043+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:31.043+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:39:31.239+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.538 seconds
+[2025-04-04T15:40:01.352+0000] {processor.py:186} INFO - Started process (PID=1963356) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:40:01.355+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:40:01.357+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:01.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:40:01.768+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:40:01.803+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:01.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:40:01.827+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:01.827+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:40:02.098+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.755 seconds
+[2025-04-04T15:43:26.044+0000] {processor.py:186} INFO - Started process (PID=1963404) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:26.046+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:43:26.048+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:26.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:26.601+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:26.640+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:26.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:43:26.661+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:26.661+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:43:26.692+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.656 seconds
+[2025-04-04T15:43:57.380+0000] {processor.py:186} INFO - Started process (PID=1963419) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:57.382+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:43:57.384+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:57.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:57.675+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:43:57.696+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:57.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:43:57.709+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:57.709+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:43:57.730+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.359 seconds
+[2025-04-04T15:49:23.629+0000] {processor.py:186} INFO - Started process (PID=1963545) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:49:23.630+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T15:49:23.633+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:23.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:49:23.929+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T15:49:23.952+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:23.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:49:23.968+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:23.968+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T15:49:23.997+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.375 seconds
+[2025-04-04T16:23:06.123+0000] {processor.py:186} INFO - Started process (PID=1963863) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:23:06.126+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:23:06.130+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:23:06.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:23:06.667+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:23:06.856+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:23:06.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:23:06.872+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:23:06.871+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:23:06.900+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.788 seconds
+[2025-04-04T16:24:24.689+0000] {processor.py:186} INFO - Started process (PID=1963880) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:24.692+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:24:24.694+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:24.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:25.007+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:25.042+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:25.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:24:25.056+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:25.056+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:24:25.080+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.399 seconds
+[2025-04-04T16:24:56.099+0000] {processor.py:186} INFO - Started process (PID=1963886) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:56.101+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:24:56.103+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:56.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:56.494+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:24:56.519+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:56.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:24:56.534+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:56.534+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:24:56.561+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.471 seconds
+[2025-04-04T16:25:26.651+0000] {processor.py:186} INFO - Started process (PID=1963899) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:25:26.653+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:25:26.654+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:26.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:25:26.985+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:25:27.008+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:27.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:25:27.023+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:27.023+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:25:27.053+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.413 seconds
+[2025-04-04T16:28:05.986+0000] {processor.py:186} INFO - Started process (PID=1963944) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:28:05.989+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:28:05.995+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:28:05.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:28:11.112+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:28:11.701+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:28:11.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:28:12.931+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:28:12.921+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:28:13.012+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 7.035 seconds
+[2025-04-04T16:29:29.515+0000] {processor.py:186} INFO - Started process (PID=1963966) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:29:29.517+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:29:29.519+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:29.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:29:29.996+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:29:30.037+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:30.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:29:30.057+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:30.057+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:29:30.088+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.581 seconds
+[2025-04-04T16:31:37.810+0000] {processor.py:186} INFO - Started process (PID=1964013) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:31:37.818+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-04T16:31:37.825+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:31:37.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:32:05.582+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-04T16:32:12.124+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:32:12.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:32:12.153+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:32:12.151+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to None, run_after=None
+[2025-04-04T16:32:12.212+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 34.420 seconds

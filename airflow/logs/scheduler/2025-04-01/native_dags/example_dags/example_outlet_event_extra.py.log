@@ -1,0 +1,9 @@
+[2025-04-01T19:32:31.851+0000] {processor.py:186} INFO - Started process (PID=1926264) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-04-01T19:32:31.852+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2025-04-01T19:32:31.854+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:31.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-04-01T19:32:31.873+0000] {processor.py:925} INFO - DAG(s) 'dataset_with_extra_from_classic_operator', 'dataset_with_extra_by_yield', 'dataset_with_extra_by_context' retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-04-01T19:32:31.900+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:31.900+0000] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-01T19:32:31.925+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:31.924+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_with_extra_by_context to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-04-01T19:32:31.930+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:31.929+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_with_extra_by_yield to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-04-01T19:32:31.932+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:31.932+0000] {dag.py:4180} INFO - Setting next_dagrun for dataset_with_extra_from_classic_operator to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-04-01T19:32:31.960+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.115 seconds

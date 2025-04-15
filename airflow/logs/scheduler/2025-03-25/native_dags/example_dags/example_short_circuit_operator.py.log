@@ -1,0 +1,14 @@
+[2025-03-25T16:57:49.127+0000] {processor.py:186} INFO - Started process (PID=1824052) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:57:49.128+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-03-25T16:57:49.130+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:49.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:57:49.141+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:57:49.167+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:49.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-25T16:57:49.180+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:57:49.180+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-03-25T16:57:49.202+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.082 seconds
+[2025-03-25T16:58:49.491+0000] {processor.py:186} INFO - Started process (PID=1824110) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:58:49.492+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-03-25T16:58:49.495+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:49.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:58:49.506+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-03-25T16:58:49.535+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:49.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-25T16:58:49.549+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:58:49.549+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-03-25T16:58:49.577+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.094 seconds

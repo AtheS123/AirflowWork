@@ -1,0 +1,126 @@
+[2025-04-04T15:04:53.486+0000] {processor.py:186} INFO - Started process (PID=1962518) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:04:53.488+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:04:53.490+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:53.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:04:53.502+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:04:53.532+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:53.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:04:53.547+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:04:53.547+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:04:53.575+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.099 seconds
+[2025-04-04T15:19:24.587+0000] {processor.py:186} INFO - Started process (PID=1962865) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:19:24.589+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:19:24.592+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:24.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:19:24.614+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:19:24.663+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:24.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:19:24.683+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:19:24.682+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:19:24.711+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.137 seconds
+[2025-04-04T15:36:28.970+0000] {processor.py:186} INFO - Started process (PID=1963273) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:28.972+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:36:28.974+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:28.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:28.981+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:29.007+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:29.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:36:29.019+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:29.019+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:36:29.043+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.082 seconds
+[2025-04-04T15:36:59.852+0000] {processor.py:186} INFO - Started process (PID=1963291) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:59.854+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:36:59.856+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:59.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:59.865+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:36:59.907+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:59.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:36:59.930+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:36:59.929+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:36:59.961+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.119 seconds
+[2025-04-04T15:37:30.383+0000] {processor.py:186} INFO - Started process (PID=1963302) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:37:30.385+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:37:30.388+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:30.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:37:30.398+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:37:30.442+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:30.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:37:30.463+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:37:30.462+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:37:30.498+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.125 seconds
+[2025-04-04T15:38:02.121+0000] {processor.py:186} INFO - Started process (PID=1963322) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:02.123+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:38:02.125+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:02.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:02.132+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:02.168+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:02.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:38:02.187+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:02.187+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:38:02.215+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.103 seconds
+[2025-04-04T15:38:32.731+0000] {processor.py:186} INFO - Started process (PID=1963331) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:32.732+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:38:32.733+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:32.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:32.741+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:38:32.768+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:32.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:38:32.782+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:38:32.782+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:38:32.804+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.080 seconds
+[2025-04-04T15:39:04.824+0000] {processor.py:186} INFO - Started process (PID=1963339) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:04.826+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:39:04.828+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:04.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:04.837+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:04.874+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:04.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:39:04.892+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:04.892+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:39:04.923+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.108 seconds
+[2025-04-04T15:39:35.385+0000] {processor.py:186} INFO - Started process (PID=1963348) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:35.386+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:39:35.387+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:35.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:35.395+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:39:35.425+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:35.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:39:35.438+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:39:35.438+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:39:35.461+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.084 seconds
+[2025-04-04T15:40:05.776+0000] {processor.py:186} INFO - Started process (PID=1963361) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:40:05.778+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:40:05.780+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:05.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:40:05.790+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:40:05.828+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:05.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:40:05.847+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:40:05.847+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:40:05.874+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.106 seconds
+[2025-04-04T15:43:30.527+0000] {processor.py:186} INFO - Started process (PID=1963411) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:43:30.529+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:43:30.531+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:30.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:43:30.539+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:43:30.573+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:30.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:43:30.587+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:43:30.586+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:43:30.608+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.090 seconds
+[2025-04-04T15:44:01.395+0000] {processor.py:186} INFO - Started process (PID=1963423) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:44:01.397+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:44:01.399+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:44:01.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:44:01.409+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:44:01.453+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:44:01.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:44:01.474+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:44:01.474+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:44:01.506+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.123 seconds
+[2025-04-04T15:49:27.817+0000] {processor.py:186} INFO - Started process (PID=1963548) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T15:49:27.819+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T15:49:27.823+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:27.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:49:27.834+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T15:49:27.862+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:27.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T15:49:27.878+0000] {logging_mixin.py:190} INFO - [2025-04-04T15:49:27.878+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T15:49:27.901+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.093 seconds
+[2025-04-04T16:24:28.985+0000] {processor.py:186} INFO - Started process (PID=1963883) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T16:24:28.987+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T16:24:28.991+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:28.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:24:28.999+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:24:29.038+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:29.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:24:29.060+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:24:29.059+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T16:24:29.093+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.119 seconds
+[2025-04-04T16:25:00.109+0000] {processor.py:186} INFO - Started process (PID=1963889) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:00.111+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T16:25:00.114+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:00.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:00.122+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:00.163+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:00.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:25:00.182+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:00.182+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T16:25:00.214+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.116 seconds
+[2025-04-04T16:25:30.659+0000] {processor.py:186} INFO - Started process (PID=1963902) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:30.661+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T16:25:30.667+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:30.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:30.676+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:25:30.714+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:30.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:25:30.729+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:25:30.729+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T16:25:30.763+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.113 seconds
+[2025-04-04T16:29:33.890+0000] {processor.py:186} INFO - Started process (PID=1963969) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T16:29:33.891+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T16:29:33.893+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:33.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:29:33.900+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:29:33.938+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:33.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:29:33.953+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:29:33.953+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T16:29:33.979+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.098 seconds
+[2025-04-04T16:32:18.890+0000] {processor.py:186} INFO - Started process (PID=1964024) to work on /root/airflow/dags/access_other_files.py
+[2025-04-04T16:32:18.892+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-04-04T16:32:18.897+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:32:18.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:32:18.926+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-04-04T16:32:18.989+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:32:18.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-04T16:32:19.012+0000] {logging_mixin.py:190} INFO - [2025-04-04T16:32:19.012+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-04-04T16:32:19.075+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.195 seconds

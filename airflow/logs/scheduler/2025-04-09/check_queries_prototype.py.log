@@ -1,0 +1,21 @@
+[2025-04-09T21:09:13.193+0000] {processor.py:186} INFO - Started process (PID=1094) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:13.194+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-09T21:09:13.196+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:13.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:13.494+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:13.623+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:13.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:09:13.646+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:13.646+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to 2025-04-09 21:08:00+00:00, run_after=2025-04-09 21:09:00+00:00
+[2025-04-09T21:09:13.678+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.491 seconds
+[2025-04-09T21:09:43.968+0000] {processor.py:186} INFO - Started process (PID=1119) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:43.969+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-09T21:09:43.972+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:43.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:44.232+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:09:44.253+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:44.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:09:44.274+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:09:44.274+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to 2025-04-09 21:09:00+00:00, run_after=2025-04-09 21:10:00+00:00
+[2025-04-09T21:09:44.294+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.333 seconds
+[2025-04-09T21:10:15.198+0000] {processor.py:186} INFO - Started process (PID=1156) to work on /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:10:15.199+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/check_queries_prototype.py for tasks to queue
+[2025-04-09T21:10:15.202+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:15.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:10:15.509+0000] {processor.py:925} INFO - DAG(s) 'check_queries' retrieved from /root/airflow/dags/check_queries_prototype.py
+[2025-04-09T21:10:15.532+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:15.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-09T21:10:15.557+0000] {logging_mixin.py:190} INFO - [2025-04-09T21:10:15.556+0000] {dag.py:4180} INFO - Setting next_dagrun for check_queries to 2025-04-09 21:10:00+00:00, run_after=2025-04-09 21:11:00+00:00
+[2025-04-09T21:10:15.578+0000] {processor.py:208} INFO - Processing /root/airflow/dags/check_queries_prototype.py took 0.389 seconds

@@ -1,0 +1,7 @@
+[2025-04-01T19:32:04.176+0000] {processor.py:186} INFO - Started process (PID=1926237) to work on /root/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-01T19:32:04.177+0000] {processor.py:914} INFO - Processing file /root/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-01T19:32:04.179+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:04.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-01T19:32:04.192+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /root/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-01T19:32:04.220+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:04.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-01T19:32:04.238+0000] {logging_mixin.py:190} INFO - [2025-04-01T19:32:04.237+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-01T19:32:04.261+0000] {processor.py:208} INFO - Processing /root/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.092 seconds

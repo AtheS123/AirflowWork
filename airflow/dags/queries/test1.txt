@@ -1,0 +1,3 @@
+SELECT corpus AS result
+FROM `bigquery-public-data.samples.shakespeare`
+ORDER BY result ASC LIMIT 5;

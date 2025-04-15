@@ -1,0 +1,20 @@
+[2024-12-14T23:52:42.316+0000] {processor.py:186} INFO - Started process (PID=401669) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:52:42.317+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-12-14T23:52:42.319+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:52:42.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:52:42.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:52:42.341+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.032 seconds
+[2024-12-14T23:53:40.396+0000] {processor.py:186} INFO - Started process (PID=401735) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:53:40.398+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-12-14T23:53:40.401+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:53:40.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:53:40.405+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:53:40.423+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.033 seconds
+[2024-12-14T23:54:33.995+0000] {processor.py:186} INFO - Started process (PID=401791) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:54:33.997+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-12-14T23:54:33.999+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:54:33.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:54:34.003+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:54:34.018+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.030 seconds
+[2024-12-14T23:55:27.972+0000] {processor.py:186} INFO - Started process (PID=401854) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:55:27.974+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-12-14T23:55:27.976+0000] {logging_mixin.py:190} INFO - [2024-12-14T23:55:27.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:55:27.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-12-14T23:55:27.994+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.029 seconds

@@ -1,0 +1,14 @@
+[2025-03-27T20:04:58.670+0000] {processor.py:186} INFO - Started process (PID=1861636) to work on /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:04:58.672+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-03-27T20:04:58.674+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:58.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:04:58.855+0000] {processor.py:925} INFO - DAG(s) 'bigquery_attempt' retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:04:58.899+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:58.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T20:04:58.951+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:04:58.951+0000] {dag.py:4180} INFO - Setting next_dagrun for bigquery_attempt to None, run_after=None
+[2025-03-27T20:04:58.983+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 0.320 seconds
+[2025-03-27T20:07:20.362+0000] {processor.py:186} INFO - Started process (PID=1861764) to work on /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:07:20.371+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/bigquery_dag.py for tasks to queue
+[2025-03-27T20:07:20.400+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:20.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:07:23.879+0000] {processor.py:925} INFO - DAG(s) 'bigquery_attempt' retrieved from /root/airflow/dags/bigquery_dag.py
+[2025-03-27T20:07:24.298+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:24.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T20:07:24.668+0000] {logging_mixin.py:190} INFO - [2025-03-27T20:07:24.635+0000] {dag.py:4180} INFO - Setting next_dagrun for bigquery_attempt to None, run_after=None
+[2025-03-27T20:07:29.526+0000] {processor.py:208} INFO - Processing /root/airflow/dags/bigquery_dag.py took 9.255 seconds

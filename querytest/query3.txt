@@ -1,0 +1,4 @@
+SELECT corpus AS title
+FROM `bigquery-public-data.samples.shakespeare`
+WHERE 1 = 2
+ORDER BY title DESC LIMIT 3;

@@ -1,0 +1,35 @@
+[2025-03-25T16:58:44.866+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-25T16:58:44.882+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bigquery_attempt.use_bigquery manual__2025-03-25T16:58:41.781481+00:00 [queued]>
+[2025-03-25T16:58:44.889+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bigquery_attempt.use_bigquery manual__2025-03-25T16:58:41.781481+00:00 [queued]>
+[2025-03-25T16:58:44.890+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-25T16:58:44.907+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): use_bigquery> on 2025-03-25 16:58:41.781481+00:00
+[2025-03-25T16:58:44.917+0000] {standard_task_runner.py:72} INFO - Started process 1824105 to run task
+[2025-03-25T16:58:44.920+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'bigquery_attempt', 'use_bigquery', 'manual__2025-03-25T16:58:41.781481+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/bigquery_dag.py', '--cfg-path', '/tmp/tmpknyb_aw0']
+[2025-03-25T16:58:44.922+0000] {standard_task_runner.py:105} INFO - Job 86: Subtask use_bigquery
+[2025-03-25T16:58:44.981+0000] {task_command.py:467} INFO - Running <TaskInstance: bigquery_attempt.use_bigquery manual__2025-03-25T16:58:41.781481+00:00 [running]> on host ubuntu-s-2vcpu-4gb-amd-sfo3-01
+[2025-03-25T16:58:45.044+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bigquery_attempt' AIRFLOW_CTX_TASK_ID='use_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2025-03-25T16:58:41.781481+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-25T16:58:41.781481+00:00'
+[2025-03-25T16:58:45.048+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-25T16:58:45.049+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-25T16:58:45.049+0000] {logging_mixin.py:190} INFO - Current task name:use_bigquery state:running start_date:2025-03-25 16:58:44.882885+00:00
+[2025-03-25T16:58:45.050+0000] {logging_mixin.py:190} INFO - Dag name:bigquery_attempt and current dag run status:running
+[2025-03-25T16:58:45.050+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-25T16:58:46.302+0000] {logging_mixin.py:190} INFO - hamlet               | 5318
+[2025-03-25T16:58:46.303+0000] {logging_mixin.py:190} INFO - kinghenryv           | 5104
+[2025-03-25T16:58:46.303+0000] {logging_mixin.py:190} INFO - cymbeline            | 4875
+[2025-03-25T16:58:46.303+0000] {logging_mixin.py:190} INFO - troilusandcressida   | 4795
+[2025-03-25T16:58:46.304+0000] {logging_mixin.py:190} INFO - kinglear             | 4784
+[2025-03-25T16:58:46.304+0000] {logging_mixin.py:190} INFO - kingrichardiii       | 4713
+[2025-03-25T16:58:46.304+0000] {logging_mixin.py:190} INFO - 2kinghenryvi         | 4683
+[2025-03-25T16:58:46.304+0000] {logging_mixin.py:190} INFO - coriolanus           | 4653
+[2025-03-25T16:58:46.305+0000] {logging_mixin.py:190} INFO - 2kinghenryiv         | 4605
+[2025-03-25T16:58:46.305+0000] {logging_mixin.py:190} INFO - antonyandcleopatra   | 4582
+[2025-03-25T16:58:46.305+0000] {python.py:240} INFO - Done. Returned value was: finished!
+[2025-03-25T16:58:46.329+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-25T16:58:46.329+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=bigquery_attempt, task_id=use_bigquery, run_id=manual__2025-03-25T16:58:41.781481+00:00, execution_date=20250325T165841, start_date=20250325T165844, end_date=20250325T165846
+[2025-03-25T16:58:46.349+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-25T16:58:46.349+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-25T16:58:46.349+0000] {logging_mixin.py:190} INFO - Dag name:bigquery_attempt queued_at:2025-03-25 16:58:41.816157+00:00
+[2025-03-25T16:58:46.349+0000] {logging_mixin.py:190} INFO - Task hostname:ubuntu-s-2vcpu-4gb-amd-sfo3-01 operator:_PythonDecoratedOperator
+[2025-03-25T16:58:46.383+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-25T16:58:46.398+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-25T16:58:46.399+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

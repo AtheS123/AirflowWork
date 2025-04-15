@@ -1,0 +1,14 @@
+[2025-03-28T16:19:37.195+0000] {processor.py:186} INFO - Started process (PID=1873353) to work on /root/airflow/dags/access_other_files.py
+[2025-03-28T16:19:37.196+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-03-28T16:19:37.198+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:19:37.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-03-28T16:19:37.210+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-03-28T16:19:37.237+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:19:37.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:19:37.252+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:19:37.252+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-03-28T16:19:37.275+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.087 seconds
+[2025-03-28T16:20:42.956+0000] {processor.py:186} INFO - Started process (PID=1873436) to work on /root/airflow/dags/access_other_files.py
+[2025-03-28T16:20:42.958+0000] {processor.py:914} INFO - Processing file /root/airflow/dags/access_other_files.py for tasks to queue
+[2025-03-28T16:20:42.960+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:20:42.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/access_other_files.py
+[2025-03-28T16:20:42.971+0000] {processor.py:925} INFO - DAG(s) 'andrew_access_files' retrieved from /root/airflow/dags/access_other_files.py
+[2025-03-28T16:20:42.992+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:20:42.992+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:20:43.007+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:20:43.007+0000] {dag.py:4180} INFO - Setting next_dagrun for andrew_access_files to None, run_after=None
+[2025-03-28T16:20:43.032+0000] {processor.py:208} INFO - Processing /root/airflow/dags/access_other_files.py took 0.084 seconds

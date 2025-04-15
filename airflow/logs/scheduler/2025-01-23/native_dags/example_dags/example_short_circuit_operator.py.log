@@ -1,0 +1,21 @@
+[2025-01-23T04:39:04.196+0000] {processor.py:186} INFO - Started process (PID=1026479) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:39:04.198+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-23T04:39:04.202+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:39:04.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:39:04.220+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:39:04.250+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:39:04.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T04:39:04.267+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:39:04.267+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-23T04:39:04.295+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.109 seconds
+[2025-01-23T04:40:06.714+0000] {processor.py:186} INFO - Started process (PID=1026606) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:40:06.716+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-23T04:40:06.722+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:40:06.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:40:06.740+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:40:06.766+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:40:06.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T04:40:06.787+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:40:06.786+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-23T04:40:06.819+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.115 seconds
+[2025-01-23T04:41:14.216+0000] {processor.py:186} INFO - Started process (PID=1026677) to work on /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:41:14.218+0000] {processor.py:914} INFO - Processing file /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-23T04:41:14.221+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:41:14.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:41:14.238+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-23T04:41:14.267+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:41:14.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T04:41:14.288+0000] {logging_mixin.py:190} INFO - [2025-01-23T04:41:14.288+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-23T04:41:14.325+0000] {processor.py:208} INFO - Processing /root/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.122 seconds
